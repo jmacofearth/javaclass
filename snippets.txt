@@ -1,0 +1,2 @@
+font-family: 'Castoro', serif;
+font-family: 'Open Sans', sans-serif;

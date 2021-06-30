@@ -1,17 +1,29 @@
-header {
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Open+Sans&display=swap");
+
+/* header {
   position: fixed;
   background: rgb(255, 255, 255);
   top: 0;
   left: 0;
   z-index: 100;
   width: 100%;
-  height: 100pxpx;
+  height: 100px;
   border-bottom: 4px solid green;
   color: #000;
+} */
+
+header {
+    background-color: #000;
+    height: 99px;
+    width: 100%;
+}
+
+header a {
+    float: left;
 }
 
 nav {
-  float: right;
+  float: left;
   padding: 5px;
 }
 
@@ -22,26 +34,62 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  float: left;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-#menu-icon {
+.search {
+    padding-top: 40px;
+}
+
+.searchglass {
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    margin-left: 613px;
+    margin-top: -21px;
+}
+
+.search-pic {
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    g color="green";
+}
+
+.ecom {
+    color: white;
+    float: right;
+    margin-top: -50px;
+}
+
+.ecom a {
+    color: white;
+    text-decoration: none;
+}
+
+.cartsvg {
+    height: 15px;
+    width: 22px;
+    filter: invert(100%);
+}
+
+
+/* #menu-icon {
   display: hidden;
   width: 40px;
   height: 40px;
   background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ)
     center;
   background-size: contain;
-}
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   header {
     position: absolute;
     border-bottom: 4px solid red;
@@ -82,7 +130,7 @@ nav ul li a {
 
   nav:hover ul {
     display: block;
-  }
+  } */
 }
 footer {
   text-align: left;
