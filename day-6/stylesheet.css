@@ -65,17 +65,22 @@ nav ul li a {
 .ecom {
     color: white;
     float: right;
-    margin-top: -50px;
+    margin-top: -40px;
+    margin-right: 15px;
     width: 300px;
 }
 
 .ecom a {
     color: white;
     text-decoration: none;
-    float: right;
 }
 
-.carttext{
+.carttext {
+    float: right;
+    margin-top: 10px;
+}
+
+.toptext {
     float: right;
 }
 
