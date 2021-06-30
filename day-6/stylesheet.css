@@ -66,11 +66,17 @@ nav ul li a {
     color: white;
     float: right;
     margin-top: -50px;
+    width: 300px;
 }
 
 .ecom a {
     color: white;
     text-decoration: none;
+    float: right;
+}
+
+.carttext{
+    float: right;
 }
 
 .cartsvg {
