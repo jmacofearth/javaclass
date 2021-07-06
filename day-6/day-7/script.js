@@ -6,76 +6,96 @@ console.log("My Name is John");
 //= is known as the assignment operator
 // 5 is the "literal" value
 
-let x = 5;
+// let x = 5;
 
-// when you "set up" a variable, that's known as a declaration
+// // when you "set up" a variable, that's known as a declaration
 
-let y;
+// let y;
 
-y = 3;
+// y = 3;
 
-let z = 6 + 7;
+// let z = 6 + 7;
 
-// when you set a value that's known as initialiization
+// // when you set a value that's known as initialiization
 
-console.log(y)
+// console.log(y)
 
-const MY_CONST = 7;
+// const MY_CONST = 7;
 
-console.log(MY_CONST)
+// console.log(MY_CONST)
 
-// TYPES
+// // TYPES
 
-// below is a sting
-//a series of characters and numbers
-// surrounded by quotes
+// // below is a sting
+// //a series of characters and numbers
+// // surrounded by quotes
 
-let myString = "This is a string value";
+// let myString = "This is a string value";
 
-console.log(myString);
+// console.log(myString);
 
-// below we have a number
-// numbers will generally respect arithemtic
-let myNumber = 100;
-let myDecimalValue = 0.45;
+// // below we have a number
+// // numbers will generally respect arithemtic
+// let myNumber = 100;
+// let myDecimalValue = 0.45;
 
-// below are boolean values
-// true or false, nothing else
-let myBoolean = true;
-let myOtherBoolean = false;
+// // below are boolean values
+// // true or false, nothing else
+// let myBoolean = true;
+// let myOtherBoolean = false;
 
-let myVariable = "abc";
-console.log(typeof myVariable);
+// let myVariable = "abc";
+// console.log(typeof myVariable);
 
-myVariable = 1
-console.log(typeof myVariable);
+// myVariable = 1
+// console.log(typeof myVariable);
 
-let coercedVariable = 7 + 7 + 7
-console.log(`the value of coercedVariable is ${coercedVariable}`);
+// let coercedVariable = 7 + 7 + 7
+// console.log(`the value of coercedVariable is ${coercedVariable}`);
 
-// i++ is the same as saying i = i + 1
-for (let i = 0; i <= 9; i++) {
-    console.log(i)
-}
+// // i++ is the same as saying i = i + 1
+// for (let i = 0; i <= 9; i++) {
+//     console.log(i)
+// }
 
-// example 1
+// // example 1
 
-let numberOfCups = 4;
-    if (numberOfCups < 3) {
-    console.log("We need more coffee.")
-}   else {
-    console.log("I think I'm okay for now")
-}
+// let numberOfCups = 4;
+//     if (numberOfCups < 3) {
+//     console.log("We need more coffee.")
+// }   else {
+//     console.log("I think I'm okay for now")
+// }
 
-// example 2
+// // example 2
 
-let milesDriven = 501;
-    if (milesDriven < 500) {
-        console.log("My car doesn't need an oil change.")
+// let milesDriven = 501;
+//     if (milesDriven < 500) {
+//         console.log("My car doesn't need an oil change.")
+//     }
+//     if (milesDriven > 500) {
+//         console.log("Yes, I think I need an oil change.")
+//     }
+
+// // example 3
+
+// for (let i = 99; i > 0; i--) {
+//     if (i > 0) {
+//     console.log(`${i} bottles of beer on the wall`)
+//        }   else {
+//         console.log("We need more root beer.")
+//     }
+// }
+
+
+for (var x=0; x<=99; x++) {
+    if (x === 0) {
+            console.log(x +  " is even");
     }
-    if (milesDriven > 500) {
-        console.log("Yes, I think I need an oil change.")
+    else if (x % 2 === 0) {
+            console.log(x + " is even");   
     }
-
-
-
+    else {
+            console.log(x + " is odd");
+    }
+}
